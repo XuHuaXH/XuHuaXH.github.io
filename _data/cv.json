@@ -1,9 +1,8 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
+    "name": "Hua Xu",
+    "email": "huaxuhx@gmail.com",
+    "website": "https://XuHuaXH.github.io",
     "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
     "location": {
       "address": "",
@@ -15,47 +14,47 @@
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "huaxuhx",
+        "url": "https://scholar.google.com/citations?user=Rjlf2qMAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/my-orcid?orcid=0009-0007-1972-7815"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "XuHuaXH",
+        "url": "https://github.com/XuHuaXH"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "KU Leuven",
+      "area": "M.S. in Mathematics",
       "studyType": "",
-      "startDate": "",
+      "startDate": "2023",
+      "endDate": "2025",
+      "gpa": "Summa Cum Laude",
+      "courses": []
+    },
+    {
+      "institution": "New York University",
+      "area": "M.S. in Computer Science",
+      "studyType": "",
+      "startDate": "2020",
+      "endDate": "2021",
+      "gpa": 4.0,
+      "courses": []
+    },
+    {
+      "institution": "University of California, Los Angeles",
+      "area": "B.S. in Mathematics",
+      "studyType": "",
+      "startDate": "2014",
       "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
       "gpa": null,
       "courses": []
     }
