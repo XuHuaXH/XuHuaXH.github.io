@@ -7,6 +7,30 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
+    <!-- Determine and apply the appropriate theme early -->
+    <script>
+      (function() {
+        // Get the user's saved preference from localStorage
+        const savedTheme = localStorage.getItem('theme');
+        
+        // Check the user's OS/browser preference for dark mode
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        // Determine which theme to use
+        let themeToApply = savedTheme;
+        if (!themeToApply) {
+          themeToApply = prefersDark ? 'dark' : 'light';
+        }
+
+        // Apply the theme to the <html> element using a 'data-theme' attribute
+        if (themeToApply === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+          document.documentElement.removeAttribute('data-theme');
+        }
+      })();
+    </script>
+    
     {% include head.html %}
     {% include head/custom.html %}
   </head>
