@@ -13,7 +13,7 @@ Education
 ======
 * M.S. in Mathematics, KU Leuven, Sept 2023 - Jul 2025
   * Graduated with *summa cum laude*
-  * Master thesis: *Distributed Proof Generation of FRI-based SNARKs*
+  * Master's thesis: *Distributed Proof Generation of FRI-based SNARKs*
 * M.S. in Computer Science, New York University, Jan 2020 - Dec 2021
   * GPA: 4.0 / 4.0
   * Recipient of the NYU Tandon Academic Achievement Award

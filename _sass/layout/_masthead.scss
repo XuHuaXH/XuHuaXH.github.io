@@ -19,7 +19,7 @@
     content: "";
     position: absolute;
     bottom: 0;
-    height: 1px;
+    height: 0.5px;
     background: var(--global-border-color);
     width: 100%;
   }
@@ -59,9 +59,15 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  padding-right: 10px;
+
+  a {
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+  }
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 9em;
     font-weight: 700;
   }
 }

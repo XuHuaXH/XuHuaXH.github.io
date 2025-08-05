@@ -176,11 +176,12 @@
   position: relative;
   min-width: 250px;
   background: var(--global-bg-color);
+  padding: 0.5rem 0;
 
   a {
     display: block;
     margin: 0 1rem;
-    padding: 0.5rem 0;
+    padding: 0 0;
     color: var(--global-masthead-link-color);
     text-decoration: none;
 
@@ -242,7 +243,7 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
+        height: 1px;
         background: var(--global-border-color);
         width: 100%;
         -webkit-transition: $global-transition;

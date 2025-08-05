@@ -1,5 +1,6 @@
 ---
 title: "FRIttata: Distributed Proof Generation of FRI-based SNARKs"
+authors: "Hua Xu, Mariana Gama, Emad Heydari Beni, Jiayi Kang"
 collection: publications
 category: preprints
 permalink: /publication/FRIttata
